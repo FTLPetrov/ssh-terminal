@@ -1,0 +1,11 @@
+node_modules/
+out/
+dist/
+release/
+coverage/
+test-results/
+playwright-report/
+.tmp/
+package-lock.json
+# Preserve the supplied architecture document exactly as received.
+ssh-desktop-architecture.md

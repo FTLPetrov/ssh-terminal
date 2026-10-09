@@ -1,0 +1,33 @@
+node_modules/
+out/
+dist/
+release/
+coverage/
+test-results/
+playwright-report/
+.tmp/
+*.log
+*.tsbuildinfo
+
+# Local environment, SSH credentials, and application data
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.ppk
+id_rsa*
+id_ed25519*
+profiles.json
+credentials.json
+known-hosts.json
+workspace.json
+
+# Local editor and operating system files
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.DS_Store
+Thumbs.db
+Desktop.ini
